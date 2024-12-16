@@ -1,5 +1,6 @@
 require 'config.remap'
 require 'config.lazy'
+require 'config.options'
 
 vim.api.nvim_create_autocmd('FileType', {
   pattern = { 'help', 'man' },
@@ -30,6 +31,7 @@ require('lazy').setup({
   require 'config.lsp-signature',
   require 'config.comment',
   require 'config.refactoring',
+  -- require 'config.neo-tree',
   -- require 'kickstart.plugins.debug',
   -- require 'kickstart.plugins.indent_line',
   -- require 'kickstart.plugins.lint',
