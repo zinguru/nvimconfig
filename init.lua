@@ -31,6 +31,7 @@ require('lazy').setup({
   require 'config.lsp-signature',
   require 'config.comment',
   require 'config.refactoring',
+  require 'config.tmux-navigator',
   -- require 'config.neo-tree',
   -- require 'kickstart.plugins.debug',
   -- require 'kickstart.plugins.indent_line',
